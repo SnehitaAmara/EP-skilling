@@ -1,0 +1,26 @@
+<html>
+<script> 
+function validateform(){ 
+var username=document.form11.username.value; 
+var password=document.form11.password.value; 
+ 
+if (username==null || username==""){ 
+ alert("Please enter the username ,It should no be blank!!"); 
+ return false; 
+}else if(password.length<7){ 
+ alert("Insufficent Length.Password must be at least 7 characters long!!!"); 
+ return false; 
+ }else if(username == password){
+	alert('Welcome' +'  '+ username);
+	return false;} 
+} 
+</script> 
+<body> 
+<form name="form11" method="post" onsubmit="return validateform()" > 
+Name: <input type="text" name="username"><br/> 
+Password: <input type="password" name="password"><br/> 
+<input type="submit" value="Login"> 
+</form>
+</body>
+
+</html> 
