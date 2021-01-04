@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta charset="utf-8">
+<script type="text/javascript">
+function verification(){
+var user=document.demo.x.value;
+var email=document.demo.y.value;
+if(user==""){
+  alert("The username should not be null");
+}
+var symbol=email.indexOf('@');
+var dot=email.lastIndexOf('.');
+var length=email.length;
+f((parseInt(dot)-parseInt(symbol))==1)
+{
+alert("INVALID!! Please Enter Valid EmailID");
+return false;
+}
+else if((parseInt(len)-parseInt(dot)-1)<2)
+{
+alert("INVALID!! Please Enter Valid EmailID");
+return false;
+}
+}
+</script>
+</head>
+<body>
+<form name="demo" onSubmit=" return verification()">
+UserName : <input type="text" name = "x"> </br>
+E-mail : <input type="text name ="y"> </br>
+<input type="submit" value="validate">
+</form>
+</body>
+
+</html>
