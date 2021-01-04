@@ -11,12 +11,12 @@ if(user==""){
 var symbol=email.indexOf('@');
 var dot=email.lastIndexOf('.');
 var length=email.length;
-f((parseInt(dot)-parseInt(symbol))==1)
+if((parseInt(dot)-parseInt(symbol))==1)
 {
 alert("INVALID!! Please Enter Valid EmailID");
 return false;
 }
-else if((parseInt(len)-parseInt(dot)-1)<2)
+else if((parseInt(length)-parseInt(dot)-1)<2)
 {
 alert("INVALID!! Please Enter Valid EmailID");
 return false;
