@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<?xml-stylesheet type="text/xsl" href="skill1_xsl.xsl"?>
+
+<student_details xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="skill1_XMLSchema.xsd" >
+
+
+
+	<student id ="a">
+		<no> 11223 </no>
+		<name> Snehita </name>
+		<email> snehita@gmail.com</email>
+		<marks> 90 </marks>
+		<class> A </class>
+	</student>
+
+	<student id="b">
+		<no> 10982 </no>
+		<name> Chitra </name>
+		<email> chitra@gmail.com</email>
+		<marks> 89 </marks>
+		<class> B </class>
+	</student>
+
+	<student id="c">
+		<no> 20316 </no>
+		<name> nishita </name>
+		<email> nishita11@gmail.com</email>
+		<marks> 91 </marks>
+		<class> A </class>
+	</student>
+
+	<student id="d">
+		<no> 28901 </no>
+		<name> priya </name>
+		<email> priya123@gmail.com</email>
+		<marks> 92 </marks>
+		<class> C </class>
+	</student>
+
+	<student id="e">
+		<no> 32754 </no>
+		<name> Ramya </name>
+		<email> ramya13@gmail.com</email>
+		<marks> 88 </marks>
+		<class> A </class>
+	</student>
+
+</student_details>
